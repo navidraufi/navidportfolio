@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navid-Raufi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+<link rel="icon" href="favicon.png">
+  <!-- Icons goes here fontawsome -->
+  <script src="https://kit.fontawesome.com/c2bfa95654.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+
+  <script
+    src="https://kit.fontawesome.com/c2bfa95654.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- CSS is below here -->
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="">
+  <header class="profile container">
+
+    <!-- ===========THEME=============== -->
+
+
+    <div class="themes change-theme-color">
+      <ul class="list-themes">
+        <div class="theme-container">
+          <button class="color-theme"></button>
+          <button class="blue-btn"></button>
+          <button class="teal-btn"></button>
+          <button class="purple-btn"></button>
+          <button class="pink-btn"></button>
+          <button class="orange-btn"></button>
+        </div>
+      </ul>
+    </div>
+
+    <i class="fa-solid fa-moon change-theme dark__mode " id="moon-btn"></i>
+    <i class="fa-solid fa-sun change-theme icon-hidden dark__mode" id="sun-btn"></i>
+
+
+    <div class="profile-container grid">
+      <div class="profile-data">
+        <div class="profile-border">
+          <div class="profile-perfil">
+            <!-- My photo goes here -->
+
+            <img id="profile-photo" src="Profile-pic.png" alt="a-photo-of-Navid-Raufi" />
+          </div>
+        </div>
+
+        <h2 class="profile-name">Navid Raufi</h2>
+        <h3 class="profile-profession">Web Developer</h3>
+        <ul class="profile-social">
+          <!-- Icons -->
+          <a href="https://www.facebook.com/naveed.wardak.52" target="_blank" class="profile-social-link">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+
+          <a href="https://www.twitter.com/" target="_blank" class="profile-social-link">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://www.github.com/navidraufi" target="_blank" class="profile-social-link">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </ul>
+      </div>
+      <div class="profile-info grid">
+        <div class="profile-info-group first-cust">
+          <h3 class="profile-info-num">1</h3>
+          <p class="profile-info-description ">
+            Years of <br />
+            work
+          </p>
+        </div>
+        <div class="profile-info-group">
+          <h3 class="profile-info-num">+3</h3>
+          <p class="profile-info-description">
+            Completed <br />
+            projects
+          </p>
+        </div>
+        <div class="profile-info-group last-cust">
+          <h3 class="profile-info-num">5</h3>
+          <p class="profile-info-description ">
+            Satisfied <br />
+            customers
+          </p>
+        </div>
+      </div>
+      <div class="profile-button">
+        <a class="button cv-button" download="" target="_blank" href="CV - Navidullah Raufi.pdf">
+          Download CV <i class="down-icon fa-solid fa-download"></i>
+        </a>
+        <div class="profile__button-small">
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=0093787293594&text=Hello, more information!"
+            class="button button-small button-gray">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="https://m.me/naveed.wardak.52" target="_blank" class="button button-small button-gray">
+            <i class="fa-brands fa-facebook-messenger"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="filters container">
+      <ul class="filters-content">
+        <!-- Filter buttons -->
+        <button class="filters-button active" id="first-btn" data-target="#projects">
+          Projects
+        </button>
+        <button class="filters-button" id="second-btn" data-target="#skills">Skills</button>
+      </ul>
+
+      <div class="filters-section">
+        <!-- Projects -->
+        <div class="projects__content grid" data-content id="projects">
+          <article class="projects-cards">
+            <img class="project-img" src="project-1.png" alt="" />
+            <div class="projects-modal">
+              <div>
+                <span class="projects-subtitle">Web</span>
+                <h3 class="projects-title">TinDog website</h3>
+                <a href="https://navidraufi.github.io/TinDog/" target="_blank" class="projects-button button button-small">
+                  <i class="fa-solid fa-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projects-cards">
+            <img class="project-img" src="project-3.jpg" alt="" />
+            <div class="projects-modal">
+              <div>
+                <span class="projects-subtitle">Web</span>
+                <h3 class="projects-title">Portfolio website</h3>
+                <a href="https://navidraufi.github.io/navidraufi/" target="_blank" class="projects-button button button-small">
+                  <i class="fa-solid fa-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="projects-cards">
+            <img class="project-img" src="project-2.jpg" alt="" />
+            <div class="projects-modal">
+              <div>
+                <span class="projects-subtitle">Web</span>
+                <h3 class="projects-title">Website for institute</h3>
+                <a href="" class="projects-button button button-small">
+                  <i class="fa-solid fa-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="projects-cards">
+            <img class="project-img" src="project4.jpg" alt="" />
+            <div class="projects-modal">
+              <div>
+                <span class="projects-subtitle">App</span>
+                <h3 class="projects-title">Music app</h3>
+                <a href="" class="projects-button button button-small">
+                  <i class="fa-solid fa-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- ====================SKILLS====================== -->
+
+        <div class="skills__content grid hidden" data-content id="skills">
+          <div class="skills-area">
+
+            <h3 class="skills-title">
+              Frontend Developer
+            </h3>
+            <div class="skills-box">
+              <div class="skills-group first-group ">
+                <div class="skills-data">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">
+                      HTML
+                    </h3>
+                    <span class="skills-level">Advanced</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">
+                      CSS
+                    </h3>
+                    <span class="skills-level">Advanced</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">
+                      Javascript
+                    </h3>
+                    <span class="skills-level">Basic</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills-group second-group">
+                <div class="skills-data">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">
+                      Bootstrap
+                    </h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">
+                      React
+                    </h3>
+                    <span class="skills-level">Basic </span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">
+                      Git
+                    </h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-area">
+
+            <h3 class="skills-title">
+              Backend Developer
+            </h3>
+            <div class="skills-box">
+              <div class="skills-group first-group">
+                <div class="skills-data">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">
+                      PHP
+                    </h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">
+                      Ruby
+                    </h3>
+                    <span class="skills-level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">
+                      MySQL
+                    </h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills-group second-group">
+                <div class="skills-data">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">
+                      Python
+                    </h3>
+                    <span class="skills-level">Advanced</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">
+                      Firebase
+                    </h3>
+                    <span class="skills-level">Basic </span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="fa-regular fa-circle-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">
+                      Node js
+                    </h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================FOOTER============== -->
+
+  <span class="footer-copy">
+    &#169; NavidRaufi. All rights reserved
+  </span>
+
+  <!-- Javascript code is below here -->
+  <script src="scrollreveal.min.js"></script>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
